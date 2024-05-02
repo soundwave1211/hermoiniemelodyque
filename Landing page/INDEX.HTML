@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HarmonieMélodique</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Enlace a la fuente de Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <!-- Estilo de la fuente para el cuerpo del documento -->
+        <style>
+            body {
+                font-family: 'Playfair Display', serif;
+            }
+        </style>
+    </head>
+    
+
+<body>
+    <header class="header-landing">
+        <div class="wrap-logo">
+            <img src="IMAGENES/secret-logo.png" alt=""
+            class="logo-header">
+        </div>
+    </header>
+    <section id="inicio" class="hero-section">
+        <div class="wrap-hero-section">
+            <h1>Bienvenido a HarmonieMélodique </h1>
+            <p>Descubre el arte y la magia de la música en HarmonieMélodique. Aquí encontrarás un espacio donde explorar, aprender y compartir tu pasión por la música.</p>
+            <div class="wrap-cta">
+                <a href="https://www.youtube.com/shorts/KeocIX22ty0" class="cta-a" target="_blank">Video de presentacion </a>
+            </div>
+        </div> 
+    </section>
+    
+    
+    <section id="servicios" class="section servicio-section">
+        <div class="wrap-title-section">
+            <h2>Categorias de servicios</h2>
+        </div>
+        <div class="wrap-servicios-section">
+            <a href="IMAGENES/persona cantando.jpg" class="item-servicios-section">
+                <img src="IMAGENES/persona cantando.jpg" alt="">
+                    <p>Clases de canto</p>
+                </img>
+            </a>
+            <a href="IMAGENES/persona leyendo partituta.avif" class="item-servicios-section">
+                <img src="IMAGENES/persona leyendo partituta.avif" alt="">
+                    <p>Clases para aprender a leer partituras</p>
+                </img>
+            </a>
+            <a href="IMAGENES/gustavo tocando.jpg" class="item-servicios-section">
+                <img src="IMAGENES/gustavo tocando.jpg" alt="">
+                  <p>Clases para aprender a tocar instrumentos </p>
+                </img>
+            </a>
+            <a href="IMAGENES/persona tocando violin.jpg" class="item-servicios-section">
+                <img src="IMAGENES/persona tocando violin.jpg" alt="">
+                    <p> historia de la musica </p>
+                </img>
+            </a>
+            <a href="IMAGENES/persona tocandopiano.avif" class="item-servicios-section">
+                <img src="IMAGENES/persona tocandopiano.avif" alt="">
+                    <p>Fundamentos de la musica </p>
+                </img>
+            </a>
+        </div>
+    </section>
+
+    <section id="caracteristicas" class="section two-columns-section">
+        <div class="wrap-title-section">
+            <h2>Características de nuestros servicios</h2>
+        </div> 
+        <div class="wrap-two-column">
+            <div class="wrap-img_two-column">
+                <!-- Imagen con tamaño ajustado -->
+                <img src="IMAGENES/cambio2.webp" alt="Personas trabajando en la oficina en casa" width="500">
+            </div>
+            <div class="wrap_img-two-columns">
+                <div class="wrap-text-column">
+                    <h3>Más características</h3>
+                    <p>Nuestro equipo de instructores está formado por músicos y educadores altamente cualificados y apasionados por compartir su conocimiento y experiencia contigo. Adaptamos nuestras lecciones y programas para satisfacer las necesidades individuales de cada estudiante, fomentando un ambiente de aprendizaje personalizado y efectivo. Ofrecemos una amplia gama de recursos educativos, como material didáctico, pistas de acompañamiento y acceso a eventos musicales exclusivos. Nos adaptamos a tu agenda ocupada ofreciendo opciones de horarios flexibles y clases personalizadas según tu disponibilidad y preferencias. Nuestros estudiantes han alcanzado niveles de éxito y satisfacción excepcionales, demostrando la eficacia de nuestro enfoque educativo y la calidad de nuestra enseñanza. ¡Si quieres ser parte de nosotros, envíanos tu solicitud!</p>
+                </div>
+                <div class="wrap-cta">
+                    <a href="#formulario" class="cta-a">Envía tu solicitud</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="formulario" class="section two-columns-section form">
+
+        <div class="wrap-title-section">
+            <h2>Formulario de contacto</h2>
+           </div> 
+
+           <div class="wrap-two-column">
+         
+            <div class="wrap_img-two-columns">
+               <div class="wrap-text-column">
+                <h3>Contacta con nosotros </h3>
+
+                <form action="procesar_formulario.php" method="post"class="form">
+                    <label for="nombre">Nombre</label>
+                    <input type="text"name="nombre"id="nombre"
+                    required="">
+                    <br><br>
+
+                    <label for="asunto">asunto</label>
+                    <input type="text"name="asunto"id="asunto"
+                    required="">
+                    <br><br>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <br>
+                    <textarea name="mensaje" id="mensaje"rows="4"
+                    cols="40" required></textarea>
+
+                    <input type="submit" value="Enviar"
+                    class="cta-a">
+                </form>
+
+               </div>
+            </div>
+
+        <div class="wrap-img_two-column">
+                    <img src="IMAGENES/cambio3.webp" alt=""width="500">
+                </div>
+            </div>
+           </div>
+    </section>
+
+
+    <footer class="footer-section">
+        <div class="wrap-footer-section">
+            <div class="wrap-social-logos">
+                <ul>
+                    <li>
+                        <a href="https://www.facebook.com/profile.php?id=100041158776847&locale=es_LA"><img src="IMAGENES/facebook.png" alt="" class="social-logo"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/sound_seulement/"><img src="IMAGENES/instagram.png" alt="" class="social-logo"></a>
+                    </li>
+                    <li>
+                        <a href=""><img src="IMAGENES/twiter 2.png" alt="" class="social-logo"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/channel/UCLAO4Bea3Oj866KD0Msi3mQ"><img src="IMAGENES/Youtube_logo.png" alt="" class="social-logo"></a>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="menu-footer-section">
+                <div class="wrap-menu-footer-section">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#servicios">Servicios</a></li>
+                        <li><a href="#caracteristicas">Quiénes somos</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+            
+            </div>
+    
+            <div class="menu-footer-section">
+                <div class="footer-creeds">
+                    <p>@copyright 2024 - HarmonieMélodique - Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+      
+
+    </footer>
